@@ -1,0 +1,35 @@
+/* Existing styles... */
+
+.App {
+  text-align: center;
+  background: #202020;
+  padding: 0 1rem; /* Add some padding to prevent content from touching the edges */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .App-header {
+    min-height: 60vh; /* Adjust header height for smaller screens */
+    font-size: calc(8px + 2vmin); /* Slightly smaller font size */
+  }
+
+  .App-logo {
+    height: 30vmin; /* Adjust logo size if you're using one */
+  }
+
+  .App-link {
+    font-size: calc(8px + 1vmin); /* Smaller link text */
+  }
+}
+
+/* Additional media queries for very small screens (e.g., phones) */
+@media (max-width: 480px) {
+  .App-header {
+    min-height: 50vh; /* Further reduce header height */
+    font-size: calc(7px + 2vmin); /* Smaller font size */
+  }
+
+  .App-logo {
+    height: 25vmin; /* Further reduce logo size */
+  }
+}
